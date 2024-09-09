@@ -1,0 +1,15 @@
+﻿global using FluentValidation;
+global using N5.Api.Data;
+global using N5.Api.Models;
+global using N5.BuildingBlocks.CQRS;
+global using N5.BuildingBlocks.Exceptions;
+global using System.Net;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using N5.Api.Permissions.Create;
+global using N5.Api.Permissions.Get;
+global using N5.Api.Permissions.Update;
+global using N5.Api.Permissions.GetById;
+global using Elastic.Clients.Elasticsearch;
+global using Confluent.Kafka;
+global using System.Text.Json;

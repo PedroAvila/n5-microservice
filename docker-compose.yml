@@ -1,0 +1,6 @@
+services:
+  n5.api:
+    image: ${DOCKER_REGISTRY-}n5api
+    build:
+      context: .
+      dockerfile: N5.Api/Dockerfile
