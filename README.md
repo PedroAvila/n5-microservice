@@ -1,4 +1,4 @@
-# Utilice Vertical Slice Architecture el patrón de diseño CQRS
+# Utilice Vertical Slice Architecture y el patrón de diseño CQRS
 
 ![image](https://github.com/user-attachments/assets/f8f42d13-3d90-4778-9787-d028a90e7f61)
 
