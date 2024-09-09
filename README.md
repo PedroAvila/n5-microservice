@@ -4,8 +4,8 @@
 
 
 # Agregar una migración inicial y actualizar la base de datos
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+- `Add-Migration InitialCreate`
+- `Update-Database`
 
 # Visualizar los mensajes de Kafka
 docker exec -it 83a1faf6cf48 kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic permissions-topic --from-beginning
